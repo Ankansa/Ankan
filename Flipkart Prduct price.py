@@ -15,8 +15,10 @@ def track_price():
             m = i.split("<")  # Split with < for getting ₹123
             price = (m[0].split("₹"))  # Split with ₹ for get 123
             final_price = (price[1])  # For convert string to int
-            print("The product price is : " + final_price)
+            pure_price=final_price.replace(",","")
+            print(pure_price)
             break
+
 
 
 track_price()
