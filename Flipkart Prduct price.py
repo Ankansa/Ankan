@@ -45,6 +45,7 @@ class myclass:
                     pure_price2 = final_price2.replace(",", "")
                     if int(myclass.data[0])>int(pure_price2):
                         print("Price is : ",pure_price2)
+                        break
                     break
 
 
